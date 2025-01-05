@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV-JUNIOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <canvas id="background-animation"></canvas>
+    </div>
+
+    <header>
+        <h1>DEV-JUNIOR</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Sobre Mim</button>
+    </header>
+
+    <!-- Menu lateral -->
+    <div class="menu-lateral" id="menu-lateral">
+        <div class="menu-conteudo">
+            <h2>Sobre Mim</h2>
+            <p>Olá, sou Robson, um jovem de 16 anos, morador do Rio Grande do Sul, Brasil. Tenho cerca de 9 meses de experiência como desenvolvedor frontend. Desde que comecei, mergulhei de cabeça no aprendizado de tecnologias como JavaScript, React, TypeScript, CSS e HTML.</p>
+            <p>Estou constantemente me desafiando e explorando novos conhecimentos na área de desenvolvimento, incluindo backend, que está nos meus planos futuros. Meu foco principal é criar projetos modernos, eficientes e que atendam às necessidades dos meus clientes.</p>
+            <button class="menu-close" onclick="toggleMenu()">Fechar</button>
+        </div>
+    </div>
+
+    <main>
+        <section class="caracteristicas">
+            <h2>Minhas Características</h2>
+            <ul>
+                <li>Desenvolvedor Frontend</li>
+                <li>Disposto a trabalhar em novos projetos</li>
+                <li>Ótimo para pequenos e médios projetos</li>
+                <li>Conclui projetos em pouco tempo</li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <h2>Contato</h2>
+            <p><strong>Email:</strong> <a href="mailto:empreendendo019@gmail.com">empreendendo019@gmail.com</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5551996191896">(51) 9 9619-1896</a></p>
+        </section>
+
+        <section class="portifolio">
+            <h2>Portfólio</h2>
+            <p>Acesse meu GitHub para ver mais projetos: <a href="https://github.com/ciperwolfport" target="_blank">ciperwolfport</a></p>
+        </section>
+
+        <section class="projetos">
+            <h2>Projetos Concluídos</h2>
+            <ul>
+                <li>Bots para pesquisa de alta demanda</li>
+                <li>Controle de estoque com React</li>
+                <li>Site de venda de produtos</li>
+                <li>Sites com Bootstrap e React</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 DEV-JUNIOR. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
